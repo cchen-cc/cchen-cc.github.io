@@ -454,17 +454,19 @@ body {
 }
 
 .site-header {
-	border-bottom: 3px solid var(--gold);
-	background: linear-gradient(90deg, #5c2229 0%, #762e35 55%, #64262d 100%);
+	border-bottom: 1px solid #d9d9d9;
+	background: #8c1b13;
 }
 
 .site-nav {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	gap: 7px;
+	max-width: 1080px;
 	min-height: 58px;
+	margin: 0 auto;
 	padding: 10px 24px;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 }
 
 .site-nav a {
@@ -472,15 +474,15 @@ body {
 	align-items: center;
 	padding: 7px 13px;
 	border-radius: 4px;
-	color: #fffaf2;
+	color: #fffdfa;
 	font-size: 0.91rem;
 	font-weight: 600;
 	white-space: nowrap;
 }
 
 .site-nav a:hover {
-	background: rgba(255, 255, 255, 0.11);
-	color: #f4dfad;
+	background: rgba(255, 255, 255, 0.14);
+	color: #ffffff;
 }
 
 #layout-content {
@@ -651,6 +653,22 @@ div#toptitle h1,
 	height: 27px;
 	border-radius: 5px;
 	object-fit: contain;
+}
+
+.linkedin-mark {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 27px;
+	height: 27px;
+	border-radius: 4px;
+	background: #0a66c2;
+	color: #ffffff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 19px;
+	font-weight: 700;
+	line-height: 1;
+	letter-spacing: -0.04em;
 }
 
 .section-nav {
@@ -864,7 +882,7 @@ a.publication-title:hover {
 .teaching-details h3 {
 	margin: 0 0 0.55em;
 	padding: 0;
-	color: var(--accent-dark);
+	color: #294e68;
 }
 
 .service-card ul,
@@ -977,7 +995,7 @@ a.publication-title:hover {
 .student-card h3 {
 	margin: 0 0 0.2em;
 	padding: 0;
-	color: #294e68;
+	color: var(--accent-dark);
 	font-size: 1rem;
 }
 
@@ -1055,17 +1073,17 @@ a.publication-title:hover {
 	display: flex;
 	justify-content: center;
 	gap: 0.65em;
-	padding: 13px 24px;
-	border: 0;
-	background: transparent;
-	color: var(--muted);
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	padding: 16px 24px;
+	border-top: 1px solid #d9d9d9;
+	background: #8c1b13;
+	color: #f7faf9;
+	font-family: "Noto Sans", Arial, Helvetica, sans-serif;
 	font-size: 0.82rem;
 }
 
 .site-footer span + span::before {
 	margin-right: 0.65em;
-	color: var(--line);
+	color: rgba(255, 255, 255, 0.5);
 	content: "|";
 }
 

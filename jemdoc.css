@@ -882,7 +882,7 @@ a.publication-title:hover {
 .teaching-details h3 {
 	margin: 0 0 0.55em;
 	padding: 0;
-	color: #294e68;
+	color: var(--accent-dark);
 }
 
 .service-card ul,
